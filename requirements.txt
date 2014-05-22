@@ -1,2 +1,2 @@
 bottle==0.12.7
-git+git://github.com/litesystems/sasm.git
+sasm==0.2
