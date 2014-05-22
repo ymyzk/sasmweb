@@ -3,10 +3,10 @@
 
 import os
 
-from bottle import route, run, template
+from bottle import route, run
 
-@route('/hello/<name>')
+@route('/')
 def index(name):
-    return template('<b>Hello {{name}}</b>!', name=name)
+    return '<b>Hello</b>!'
 
-run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
+run(server='gevent', port=int(os.environ.get("PORT", 5000)))
