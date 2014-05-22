@@ -24,7 +24,6 @@ def assemble():
         asm = assembler.compile()
     except:
         error = traceback.format_exc()
-        print(error)
 
     return template('assemble', asm=asm, code=code, error=error)
 
