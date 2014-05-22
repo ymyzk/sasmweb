@@ -1,2 +1,2 @@
 bottle==0.12.7
-git+git://github.com/litesystems/sasm.git@ee3c117923b4df2daf0dc5153012d4f3ec96a150
+git+git://github.com/litesystems/sasm.git
