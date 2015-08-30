@@ -14,7 +14,7 @@
     <footer class="text-center">
       <hr>
       Copyright &copy; 2014 Yusuke Miyazaki.<br>
-      Assembler is provided by <a href="https://github.com/litesystems/sasm">sasm</a>.
+      Assembler is provided by <a href="https://github.com/ymyzk/sasm">sasm</a>.
     </footer>
   </div>
 </body>
