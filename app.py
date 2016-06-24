@@ -28,4 +28,13 @@ def assemble():
     return template('assemble', asm=asm, code=code, error=error)
 
 
-run(host='0.0.0.0', port=sys.argv[1])
+if __name__ == "__main__":
+    try:
+        host = sys.argv[1]
+    except IndexError:
+        host = "127.0.0.1"
+    try:
+        port = sys.argv[2]
+    except IndexError:
+        port = 8000
+    run(host=host, port=port)
